@@ -35,12 +35,12 @@ INSERT INTO employees
 VALUES
 INSERT INTO employees
 VALUES
-(1,'akshy sharma','akshy@gmail.com','1111222233','Male','2012-02-12',35000.00,'IT','Active'),
-(2,'manu kadam','manu@gmail.com','4567832567','Female','2023-04-01',45000.00,'HR','Active'),
-(3,'satish verma','satish@gmail.com','9876543212','Male','2020-07-22',30000.00,'DATA ANALYST','Active'),
-(4,'sakhu nayak','sakhu@gmail.com','9123456789','Female','2022-03-30',50000.00,'DATA SCIENTIST','active'),
-(5,'niks bhosle','niks@gmail.com','9877776654','Female','2024-01-17',35000.00,'IT','Active'),
-(6,'manish','manish@gmail.com','78768765433','Male','2016-05-04',55000.00,'FINANCE','Active');
+(1,'akshy','akshy@gmail.com','1111222233','Male','2012-02-12',50000.00,'Sales','Active'),
+(2,'manu','manu@gmail.com','4567832567','Female','2023-04-01',60000.00,'HR','Active'),
+(3,'satish','satish@gmail.com','9876543212','Male','2020-07-22',70000.00,'DATA ANALYST','Active'),
+(4,'sakhu','sakhu@gmail.com','9123456789','Female','2022-03-30',80000.00,'DATA SCIENTIST','active'),
+(5,'niks','niks@gmail.com','9877776654','Female','2024-01-17',750000.00,'IT','Active'),
+(6,'manish','manish@gmail.com','78768765433','Male','2016-05-04',85000.00,'IT','Active');
 SELECT * FROM employee;
 INSERT INTO Departments
 VALUES
@@ -50,9 +50,9 @@ VALUES
 (4,'DATA SCIENTIST','nashik');
 INSERT INTO projects
 VALUES
-(1,'IT','2022-01-22','2023-12-30',100000.00),
+(1,'Data analyser','2022-01-22','2023-12-30',100000.00),
 (2,'Human Resoures','2023-01-02','2024-12-31',2000000.00),
-(3,'Data analyser','2020-10-22','2021-11-20',300000.00),
+(3,'IT','2020-10-22','2021-11-20',300000.00),
 (4,'Marketing','2022-01-22','2023-12-30',400000.00),
 (5,'Software Developer','2017-02-23','2019-12-09',500000.00);
 UPDATE employees
